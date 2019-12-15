@@ -287,4 +287,5 @@ body {
 .animation2:hover > .background-img2 {
     transform: scale(1.0);
     opacity: 1;
-    transition: all 0.7s;
+    transition: all 0.7s;.
+}
