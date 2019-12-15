@@ -1,0 +1,134 @@
+@font-face {
+     /* latin */
+    font-family: 'Cedarville Cursive';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cedarville Cursive'), local('Cedarville-Cursive'), url(https://fonts.gstatic.com/s/cedarvillecursive/v11/yYL00g_a2veiudhUmxjo5VKkoqA-B_nuIrpw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Cedarville Cursive', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    width: 100%;
+    background-color: white;
+    background-image: url(http://garchitecture.ca/php/images/headers/wood.jpg);
+    background-size: cover;
+    margin: 0;
+
+   }
+
+
+.photos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-left: 150px;
+    margin-top: 100px;
+ }
+
+.cat-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.polaroid {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 1px 1px 2px 3px rgba(0, 0, 0, 0.5);
+    position: relative;
+    transition-duration: 0.3s;
+}
+
+.polaroid:hover {
+    z-index:1000;
+    transform: scale(1.5);
+}
+
+.photo1 {
+    left: 70px;
+    top: 10px;
+    transform: rotate(-10deg);
+    z-index: 50;
+}
+
+.photo2 {
+    left: 20px;
+    top: 40px;
+    transform: rotate(7deg);
+    z-index: 100;
+}
+
+.photo3 {
+    left: -40px;
+    top: 10px;
+    transform: rotate(-15deg);
+}
+
+.photo4 {
+    left: 70px;
+    top: -10px;
+    transform: rotate(15deg);
+}
+.photo5 {
+    left: 20px;
+    top: -10px;
+    transform: rotate(11deg);
+    z-index: 300;
+}
+.photo6 {
+    left: -30px;
+    top: -25px;
+    transform: rotate(-14deg);
+    
+}
+.photo7 {
+    left: 50px;
+    top: -80px;
+    transform: rotate(-10deg);
+}
+.photo8 {
+    left: -30px;
+    transform: rotate(10deg);
+    z-index: 350;
+}
+.photo9 {
+    left: -100px;
+    top: 60px;
+    transform: rotate(-12deg);
+    z-index: 300;
+}
+
+.photo10 {
+    left: -150px;
+    top: 10px;
+    transform: rotate(11deg);
+    
+}
+
+.vertical-img {
+    width: 200px;
+}
+
+.horizontal-img {
+    height:200px;
+}
+
+figcaption {
+    height: 35px;
+    text-align:center;
+}
+
+footer {
+    height: 150px;
+    background-color: white;
+    width: 100%;
+}
