@@ -84,7 +84,7 @@ body {
     height: 60px;
     left: -80px;
     top: 0px;
-    transition: all 0.6s 0.2s;
+    transition: all 0.5s 0.2s;
     box-sizing: border-box;
 }
 
@@ -133,7 +133,7 @@ body {
     top:0px;
     height: 530px;
     width: 530px;
-    transition: all 0.7s;
+    transition: all 0.3s;
     box-sizing: border-box;
     /*border: 5px solid black;*/
  
@@ -142,7 +142,7 @@ body {
     height: 499px;
     width: 499px;
     position: relative;
-    transition: all 0.7s;
+    transition: all 0.3s;
     overflow: hidden;
     border: 5px solid black;
     box-sizing: border-box;
@@ -154,7 +154,7 @@ body {
     position: absolute;
     top: 30px;
     left: 30px;
-    transition-duration: 0.6s;
+    transition-duration: 0.3s;
     }
 
 .subtitle {
@@ -162,7 +162,7 @@ body {
     position: absolute;
     top: 100px;
     left: 600px;
-    transition-duration: 0.6s;
+    transition-duration: 0.3s;
    
 }
 
@@ -172,7 +172,7 @@ body {
     top: 170px;
     left: 600px;
     width: 200px;
-    transition-duration: 0.6s;
+    transition-duration: 0.3s;
     
 }
 
@@ -180,7 +180,7 @@ body {
     top: 100px;
     left: 230px;
     transform: translateX(-0px);
-    transition: all 0.6s;
+    transition: all 0.3s;
     
 }
 
@@ -188,12 +188,12 @@ body {
     position: absolute;
     top: 170px;
     transform: translateX(-290px);
-    transition: all 0.6s 0.4s;
+    transition: all 0.3s 0.4s;
     
 }
 
 .animation1:hover {
-    transition: all 0.7s;
+    transition: all 0.3s;
     border: 1px solid black;
 
         }
@@ -201,7 +201,7 @@ body {
 .animation1:hover > .background-img {
     transform: scale(1.1);
     opacity: 0.7;
-    transition: all 0.7s;
+    transition: all 0.3s;
 }
 
 /*---------------------------------
@@ -209,7 +209,7 @@ body {
 -----------------------------------*/
 
 .animation2 {
-    transition: all 0.7s;
+    transition: all 0.3s;
     height: 499px;
     width: 499px;
     position: relative;
@@ -224,7 +224,7 @@ body {
     z-index: 1500;
     top: 10px;
     left: 10px;
-    transition: all 0.7s;
+    transition: all 0.3s;
 }
 
 .background-img2 {
@@ -235,7 +235,7 @@ body {
     position: relative;
     left:-2px;
     top:-1px;
-    transition: all 0.7s;
+    transition: all 0.3s;
     opacity: 0.8;
     transform: scale(1.1);
 }
@@ -256,7 +256,7 @@ body {
     position: absolute;
      bottom: -95px;
      left: 50px;
-     transition: all 0.7s;
+     transition: all 0.3s;
 }
 .subtitle2 {
      text-align: center;
@@ -266,7 +266,7 @@ body {
      bottom: -95px;
      left: 50px;
      font-size: 25px;
-     transition: all 0.7s;
+     transition: all 0.3s;
 }
 
 .animation2:hover .border-box {
@@ -276,16 +276,16 @@ body {
 
 .animation2:hover .subtitle2 {
     transform: translateY(-115px);
-    transition: all 0.7s 0.5s;
+    transition: all 0.3s 0.2s;
 }
 
 .animation2:hover .border-sub {
     transform: translateY(-115px);
-    transition: all 0.7s 0.1s;
+    transition: all 0.3s 0.1s;
 }
 
 .animation2:hover > .background-img2 {
     transform: scale(1.0);
     opacity: 1;
-    transition: all 0.7s;
+    transition: all 0.3s;
 }
